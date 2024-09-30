@@ -1,5 +1,10 @@
 package com.ComcastCRMFramework.ContactsTest;
 
-public class ABC {
+import org.testng.annotations.Test;
 
+public class ABC {
+@Test
+public void aaba() {
+	System.out.println("Hi..");
+}
 }
