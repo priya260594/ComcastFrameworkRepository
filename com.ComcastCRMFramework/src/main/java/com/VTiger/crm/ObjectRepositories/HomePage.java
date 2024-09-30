@@ -11,6 +11,8 @@ public class HomePage extends WebDriverUtility {
 
 	@FindBy(linkText="Organizations")
     private WebElement organizationTab;
+	@FindBy(linkText = "project")
+	private WebElement projectLink;
 	
 	@FindBy(xpath="//td[@class='tabUnSelected']/a[text()='Contacts']")
 	private WebElement contactsTab;
